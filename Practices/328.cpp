@@ -26,14 +26,14 @@ ListNode* Solution::oddEvenList(ListNode* head) {
         curNode = curNode->next;
         i ++;
     }
-
+    if (lastEven) lastEven->next = nullptr;
     lastOdd->next = firstEven;
     return head;
 }
 
 
 void Test::test328() {
-    vector<int> list = {1,2,3,4,5};
+    vector<int> list = {1};
     ListNode * inp = nullptr;
     for (int i = list.size() - 1; i >= 0; i--) {
         int x = list[i];
