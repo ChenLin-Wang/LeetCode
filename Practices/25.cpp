@@ -9,8 +9,31 @@ struct ListNode {
 };
 
 ListNode* Solution::reverseKGroup(ListNode* head, int k) {
-
-    return head;
+    ListNode * curNode = head;
+    ListNode * res = nullptr;
+    ListNode * partNode = nullptr;
+    ListNode * lastPartN = nullptr;
+    int i = 0;
+    int length = 0;
+    while (curNode) { curNode = curNode->next; length ++; }
+    curNode = head;
+    while (curNode) {
+        ListNode * lNode = lastPartN;
+        if (i + k > length) { lNode->next = curNode; break; }
+        if (i % k != 0) { i ++; continue; }
+        partNode = nullptr;
+        for (int j = 0; j < k; j++) {
+            if (!curNode) break;
+            ListNode * newNode = new ListNode(curNode->val, partNode);
+            if (j == 0) lastPartN = newNode;
+            partNode = newNode;
+            curNode = curNode->next;
+        }
+        if (i == 0) res = partNode;
+        if (lNode) lNode->next = partNode;
+        i ++;
+    }
+    return res;
 }
 
 void Test::test25() {

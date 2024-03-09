@@ -1,9 +1,28 @@
 #include <iostream>
-#include "header.h"
+// #include "header.h"
 
-using namespace std;
+// using namespace std;
+
+
+typedef struct LinkNode {
+    int val;
+    LinkNode * next;
+} LinkNode;
+
+LinkNode makeLinkNode(int val, LinkNode * next) {
+    LinkNode node;
+    node.val = val;
+    node.next = next;
+    return node;
+}
 
 int main() {
-    Test::test25();
+
+    LinkNode firstNode = makeLinkNode(1, nullptr);
+    LinkNode * node = &firstNode;
+
+    printf("%d", node->val);
+
+    // Test::test328();
     return 0;
-}
+} 

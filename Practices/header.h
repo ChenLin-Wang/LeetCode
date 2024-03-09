@@ -21,6 +21,7 @@ public:
     static ListNode* reverseList(ListNode* head);
     static ListNode* reverseBetween(ListNode* head, int left, int right);
     static ListNode* reverseKGroup(ListNode* head, int k);
+    static ListNode* oddEvenList(ListNode* head);
 };
 
 
@@ -39,4 +40,5 @@ public:
     static void test206();
     static void test92();
     static void test25();
+    static void test328();
 };
