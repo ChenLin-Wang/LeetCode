@@ -1,4 +1,4 @@
-#include "header.h"
+#include "../header.h"
 
 vector<int> Solution::productExceptSelf(vector<int>& nums) {
     vector<int> res(nums.size());

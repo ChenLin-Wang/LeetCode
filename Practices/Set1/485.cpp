@@ -1,4 +1,4 @@
-#include "header.h"
+#include "../header.h"
 
 int Solution::findMaxConsecutiveOnes(vector<int>& nums) {
     int i = 0;

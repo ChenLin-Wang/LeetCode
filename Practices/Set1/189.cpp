@@ -1,4 +1,4 @@
-#include "header.h"
+#include "../header.h"
 
 
 void solution1(vector<int>& nums, int k) {

@@ -5,11 +5,12 @@
             "label": "C/C++: g++.exe build active file",
             "command": "C:\\Program Files\\mingw64\\bin\\g++.exe",
             "args": [
+                "${workspaceFolder}\\Learn.cpp",
                 "-fdiagnostics-color=always",
                 "-g",
-                "${workspaceFolder}\\*.cpp",
+                "${workspaceFolder}\\Set2\\*.cpp",
                 "-o",
-                "${fileDirname}\\Learn.exe"
+                "${workspaceFolder}\\Learn.exe"
             ],
             "options": {
                 "cwd": "${fileDirname}"

@@ -1,5 +1,4 @@
-#include "header.h"
-
+#include "../header.h"
 
 vector<int> Solution::findDiagonalOrder(vector<vector<int>>& mat) {
     int m = mat.size(), n = mat[0].size();

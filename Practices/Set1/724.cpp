@@ -1,4 +1,4 @@
-#include "header.h"
+#include "../header.h"
 
 int Solution::pivotIndex(vector<int>& nums) {
     int m = accumulate(nums.begin(), nums.end(), 0);
