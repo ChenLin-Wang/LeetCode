@@ -37,6 +37,10 @@ public:
     static int wordsFrequency(string word, vector<string>& book);
     static int deleteAndEarn(vector<int>& nums);
     static long long minimumCostToMakeAllCharactersEqual(string s);
+    static ListNode* addTwoNumbers(ListNode* l1, ListNode* l2);
+    static int lengthOfLongestSubstring(string s);
+    static double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2);
+    static string longestPalindrome(string s);
 };
 
 
@@ -71,4 +75,8 @@ public:
     static void test16_02();
     static void test740();
     static void test2712();
+    static void test2();
+    static void test3();
+    static void test4();
+    static void test5();
 };
