@@ -6,6 +6,7 @@
         "iostream": "cpp",
         "algorithm": "cpp",
         "string": "cpp",
-        "xstring": "cpp"
+        "xstring": "cpp",
+        "map": "cpp"
     }
 }

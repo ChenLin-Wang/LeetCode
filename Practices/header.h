@@ -31,6 +31,12 @@ public:
     // -> 155
     static vector<int> dailyTemperatures(vector<int>& temperatures);
     static int evalRPN(vector<string>& tokens);
+    static int countDaysWithoutMeetings(int days, vector<vector<int>>& meetings);
+    static int bestSightseeingPair(vector<int>& values);
+    static int maxDiffFromChangeAnInteger(int num);
+    static int wordsFrequency(string word, vector<string>& book);
+    static int deleteAndEarn(vector<int>& nums);
+    static long long minimumCostToMakeAllCharactersEqual(string s);
 };
 
 
@@ -59,4 +65,10 @@ public:
     static void test155();
     static void test739();
     static void test150();
+    static void test3169();
+    static void test1014();
+    static void test1432();
+    static void test16_02();
+    static void test740();
+    static void test2712();
 };
