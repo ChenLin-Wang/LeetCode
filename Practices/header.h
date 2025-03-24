@@ -41,6 +41,8 @@ public:
     static int lengthOfLongestSubstring(string s);
     static double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2);
     static string longestPalindrome(string s);
+    static string zigzagConvert(string s, int numRows);
+    static int reverseInteger(int x);
 };
 
 
@@ -79,4 +81,6 @@ public:
     static void test3();
     static void test4();
     static void test5();
+    static void test6();
+    static void test7();
 };
