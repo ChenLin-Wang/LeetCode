@@ -43,6 +43,14 @@ public:
     static string longestPalindrome(string s);
     static string zigzagConvert(string s, int numRows);
     static int reverseInteger(int x);
+    static int myAtoi(string s);
+    static bool isPalindromeNum(int x);
+    // ------ set 3
+    static bool regexMatch(string s, string p);
+    static string intToRoman(int num);
+    static int romanToInt(string s);
+    static string longestCommonPrefix(vector<string>& strs);
+    static vector<vector<int>> threeSum(vector<int>& nums);
 };
 
 
@@ -83,4 +91,12 @@ public:
     static void test5();
     static void test6();
     static void test7();
+    static void test8();
+    static void test9();
+    // ------ set 3
+    static void test10();
+    static void test12();
+    static void test13();
+    static void test14();
+    static void test15();
 };
