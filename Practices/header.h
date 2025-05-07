@@ -51,6 +51,10 @@ public:
     static int romanToInt(string s);
     static string longestCommonPrefix(vector<string>& strs);
     static vector<vector<int>> threeSum(vector<int>& nums);
+    static int threeSumClosest(vector<int>& nums, int target);
+    static vector<string> letterCombinations(string digits);
+    static string evaluateBrackets(string s, vector<vector<string>>& knowledge);
+    static bool bracketExpansion(string s);
 };
 
 
@@ -99,4 +103,8 @@ public:
     static void test13();
     static void test14();
     static void test15();
+    static void test16();
+    static void test17();
+    static void test1807();
+    static void testBracket();
 };
